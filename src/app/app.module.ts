@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { EchartsComponent } from './echarts/echarts.component';
-
+import { NgxEchartsModule } from 'ngx-echarts';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,8 @@ import { EchartsComponent } from './echarts/echarts.component';
     EchartsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxEchartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
